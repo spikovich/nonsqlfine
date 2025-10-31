@@ -1,0 +1,37 @@
+{
+  "name": "nonsqlfine",
+  "version": "1.0.0",
+  "description": "Система синхронизации данных в реальном времени для локальной сети. Веб-приложение для синхронизации данных между компьютерами с использованием WebSocket и SQLite",
+  "keywords": [
+    "sync",
+    "realtime",
+    "websocket",
+    "local-network",
+    "data-synchronization",
+    "socket.io",
+    "react",
+    "nodejs",
+    "sqlite"
+  ],
+  "author": "spichovich",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "start:server": "cd server && npm start",
+    "start:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build:client": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spikovich/nonsqlfine.git"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
